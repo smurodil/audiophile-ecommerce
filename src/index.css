@@ -1,0 +1,164 @@
+/* manrope-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../src/fonts/manrope-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* manrope-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../src/fonts/manrope-v15-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* manrope-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../src/fonts/manrope-v15-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ html {
+  height: 100%;
+ }
+
+ body{
+    height: 100%;
+    font-family: 'Manrope', sans-serif;
+ }
+
+.max-container{
+  width: 100%;
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+:root{
+  --orange-color: #D87D4A;
+  --light-black: #101010;
+  --light-gray: #F1F1F1;
+  --light-white: #FAFAFA;
+  --light-orange: #fbaf85;
+  --white-color: #ffffff;
+  --black-color: #000000;
+
+  --bg-hero-desktop: url('/assets/home/desktop/image-hero.jpg')
+  --bg-hero-tablet: url('/assets/home/tablet/image-header.jpg')
+  --bg-hero-mobile: url('/assets/home/mobile/image-header.jpg')
+  --circle: url('/assets/home/desktop/pattern-circles.svg')
+  --ZX7-desktop: url('/assets/home/desktop/image-speaker-zx7.jpg')
+  --ZX7-tablet: url('/assets/home/tablet/image-speaker-zx7.jpg')
+  --ZX7-mobile: url('/assets/home/mobile/image-speaker-zx7.jpg')
+  --YX1-desktop: url('/assets/home/desktop/image-earphones-yx1.jpg')
+  --YX1-tablet: url('/assets/home/tablet/image-earphones-yx1.jpg')
+  --YX1-mobile: url('/assets/home/mobile/image-earphones-yx1.jpg')
+}
+
+h1{
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 58px;
+  letter-spacing: 2px;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.5px;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1.15px;
+}
+
+h4{
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 2px;
+}
+
+h5{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1.7px;
+}
+
+h6{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1.3px;
+}
+
+.overline{
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 10px;
+}
+
+.sub-title{
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.body-text{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.btn-default-1{
+  padding: 15px 30px;
+  color:  var(--white-color);
+  background-color: var(--orange-color);
+  text-transform: uppercase;
+  border: 0;
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+.btn-default-1:hover{
+  background-color: var(--light-orange);
+  cursor: pointer;
+}
+
+.btn-default-2{
+  background-color: var(--white-color);
+  color: var(--black-color);
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: 0.2s;
+}
+
+.btn-default-2:hover{
+  background-color: var(--light-black);
+  cursor: pointer;
+  color: var(--white-color);
+}
+
+.hidden{
+  display: none;
+}

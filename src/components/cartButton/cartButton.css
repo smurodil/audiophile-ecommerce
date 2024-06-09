@@ -1,0 +1,38 @@
+.cart-btn-wrapper{
+    background-color: #f1f1f1;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    height: 32px;
+    padding: 7px;
+    cursor: default;
+}
+
+.cart-button{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    background-color: transparent;
+    padding: 16px 8px;
+    border: 0;
+    font-size: 15px;
+    transition: 0.3s;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.cart-button:hover{
+    color: var(--orange-color);
+}
+
+.btn-quantity{
+    padding-right: 16px;
+    padding-left: 16px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 350px ){
+    .cart-btn-wrapper{
+        margin-right: 50px;
+        margin-bottom: 25px;
+    }
+}
